@@ -28,4 +28,15 @@ export default function Details(){
                     </View>
                 </View>
             </ScrollView>};
-const s=StyleSheet.create({screen:{flex:1,backgroundColor:'#08090c'},center:{flex:1,justifyContent:'center',alignItems:'center',backgroundColor:'#08090c',padding:28},errorTitle:{color:'#fff',fontSize:22,fontWeight:'900'},errorText:{color:'#a7abb4',marginTop:10},poster:{width:'100%',height:460,resizeMode:'cover'},copy:{padding:20},title:{color:'#fff',fontSize:31,fontWeight:'900'},meta:{color:'#d1d5db',marginTop:8,fontWeight:'700'},genre:{color:'#f43f5e',marginTop:10,fontWeight:'900'},desc:{color:'#d1d5db',marginTop:14,fontSize:15,lineHeight:22},info:{marginTop:24,borderTopWidth:1,borderTopColor:'#24262c',paddingTop:16},infoLabel:{color:'#8b8f98',fontSize:10,fontWeight:'900'},infoValue:{color:'#fff',marginTop:5,fontFamily:'monospace'}});
+const s=StyleSheet.create({
+    screen:{
+        flex:1,backgroundColor:'#08090c'},
+        center:{
+            flex:1,
+            justifyContent:'center',
+            alignItems:'center',
+            backgroundColor:'#08090c',
+            padding:28},
+            errorTitle:{
+                color:'#fff',
+                fontSize:22,fontWeight:'900'},errorText:{color:'#a7abb4',marginTop:10},poster:{width:'100%',height:220,resizeMode:'cover'},copy:{padding:20},title:{color:'#fff',fontSize:31,fontWeight:'900'},meta:{color:'#d1d5db',marginTop:8,fontWeight:'700'},genre:{color:'#f43f5e',marginTop:10,fontWeight:'900'},desc:{color:'#d1d5db',marginTop:14,fontSize:15,lineHeight:22},info:{marginTop:24,borderTopWidth:1,borderTopColor:'#24262c',paddingTop:16},infoLabel:{color:'#8b8f98',fontSize:10,fontWeight:'900'},infoValue:{color:'#fff',marginTop:5,fontFamily:'monospace'}});
